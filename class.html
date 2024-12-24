@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+<head>
+  <meta charset="UTF-8">
+  <title>授業の記録</title>
+</head>
+
+<body>
+  <div id="pagebody">
+    <div id="header">
+      <h1><a href="index.html"><img src="./img/logo.png" alt="秋季期末プロジェクト"></a></h1>
+    </div>
+
+    <ul id="menu">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="syoukai.html">自己紹介</a></li>
+      <li><a href="class.html">授業の記録</a></li>
+      <li><a href="game.html">ゲーム</a></li>
+    </ul>
+
+    <div id="img_index">
+      <img src="./img/top.png" alt="城西大学17号館">
+    </div>
+
+    <div id="submenu">
+      <h2>授業の記録</h2>
+      <ul>
+        <li><a href="#info001">変数・引数などの練習</a></li>
+        <li><a href="#info002">タイマー関係</a></li>
+        <li><a href="#info003">テキスト入力</a></li>
+      </ul>
+    </div>
+
+    <div id="info">
+      <h3 id="info001">変数・引数などの練習</h3>
+      <h4>変数の練習</h4>
+      <!--hensu1.js-->
+      <input type="button" value="あいさつ" onclick="sayhello1();">
+      <input type="button" value="太郎" onclick="taro1();">
+      <input type="button" value="花子" onclick="hanako1();">
+      <br><br>
+
+      <h4>引数の練習</h4>
+      <!--hensu2.js-->
+      <input type="button" value="あいさつ" onclick="sayhello2();">
+      <input type="button" value="太郎" onclick="someone('太郎');">
+      <input type="button" value="花子" onclick="someone('花子');">
+      <input type="button" value="レイ" onclick="someone('レイ');">
+      <input type="button" value="シンジ" onclick="someone('シンジ');">
+      <input type="button" value="アスカ" onclick="someone('アスカ');">
+      <br><br>
+
+      <h4>JavaScriptによる変更の練習</h4>
+      <!--hensu3.js-->
+      <input type="button" value="あいさつ" onclick="sayhello3();">
+      <input type="button" value="太郎" onclick="taro3();">
+      <input type="button" value="花子" onclick="hanako3();">
+      <p id="who">最初はworld</p>
+      <br><br>
+
+      <!--hensu4.js-->
+      <input type="button" value="真顔" onclick="face1();">
+      <input type="button" value="笑顔" onclick="face2();">
+      <div id="face"><img src="./img/ochanoma_mu.png" alt="顔" id="kao1"></div>
+      <div id="uehe">
+        <a href="#pagebody">上へ</a>
+      </div>
+      <hr>
+    
+
+
+      <h3 id="info002">タイマー関係</h3>
+      <!--timer1.js-->
+      <h4>タイマーイベントによる実行</h4>
+      <form name="timer">
+        <input type="button" value="スタート" onclick="startfunc()">
+        <br>
+        <input type="text" name="moji" size="30" value="">
+      </form><br><br>
+      
+      <!--time.js-->
+      <img src="./img/timer.png" id="timer" onclick="setTimeout('time()',3000)">
+      <br><br>
+      
+      <!--timer2.js-->
+      <h4>タイマーでの画像変更</h4>
+  <input type="button" value="変えて戻す" onclick="henkou2()"><br>
+  <img src="./img/coldsleep_man.png" id="man1" alt="いらすとや">
+            <div id="uehe">
+        <a href="#pagebody">top</a>
+      </div>
+      <hr>
+
+      
+      <h3 id="info003">テキスト入力</h2>
+      <!--input1.js-->
+      <h4>足し算</h4>
+  <p>
+    <input type="text" id="input1"> + <input type="text" id="input2">
+    <input type="button" value="計算" onclick="add();">
+  </p><br><br>
+      
+      <!--input2.js-->
+      <h4>ボディマス指数</h4>
+  <p>
+    体重<input type="text" id="1input"> + 身長（ｍ）<input type="text" id="2input">
+    <input type="button" value="計算" onclick="add2();">
+  </p><br><br>
+      
+      <!--input3.js-->
+        <h4>なぞなぞ（漢字１文字かひらがな）</h4>
+  <input type="text" id="answer4">
+  <input type="button" value="解答" onclick="nazo4();">
+  <br><br>
+      
+      <!--input4.js-->
+      <h4>演習 閏年か平年か 07-13</h4>
+  <input type="text" id="toshi">
+  <input type="button" value="どっち" onclick="dotira();">
+  <br><br>
+      
+      <!--input5.js-->
+      <h4>血液型を当てる</h4>
+  <p>あなたの血液型にAという文字は含まれていますか？(yes/no)
+    <input type="text" id="a"></p>
+  <p>あなたの血液型にBという文字は含まれていますか？(yes/no)
+    <input type="text" id="b"></p>
+  <p><input type="button" value="判定" onclick="bloodtype();"></p>
+      <div id="uehe">
+        <a href="#pagebody">top</a>
+      </div>
+        <hr>
+    </div>
+    <div id="footer">
+      <small>秋季期末プロジェクト</small>
+    </div>
+  </div>
+</body>
+
+</html>
