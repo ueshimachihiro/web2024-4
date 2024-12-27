@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
+ <meta charset="UTF-8">
   <title>自己紹介</title>
-  <link rel="stylesheet" href="abc.css">
-  <link rel="stylesheet" href="table.css">
+  <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
-  <div id="pagebody">   
-    <div id="header">
-     <h1><a href="index.html"><img src="./img/logo.png" alt="秋季期末プロジェクト"></a></h1>
-    </div>
-    
-    <ul id="menu">
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="syoukai.html">自己紹介</a></li>
-      <li><a href="class.html">授業の記録</a></li>
-      <li><a href="game.html">ゲーム</a></li>
-    </ul>
-    
-    <div id="img_index">
-    <img src="./img/profile.jpg" alt="自己紹介">
-    </div>
-    
-    <div id="submenu">
-    <h2>自己紹介</h2>
+  <div id="wrap">   
+    <header>
+      <div id="logo">
+       <h1><a href="index.html"><img src="img/logo.png" alt="秋季期末プロジェクト"></a></h1>
+      </div>
+
+      <nav class="cf">
         <ul>
-      <li><a href="#info001">基本情報</a></li>
-      <li><a href="#info002">出身学校</a></li>
-      <li><a href="#info003">取得資格</a></li>
-    </ul>
-    </div>
+         <li><a href="index.html">ホーム</a></li>
+         <li><a href="syoukai.html">自己紹介</a></li>
+         <li><a href="class.html">授業の記録</a></li>
+         <li><a href="game.html">ゲーム</a></li>
+        </ul>
+      </nav>
+
+      <div id="main_visual">
+        <strong>zm24100 UeshimaChihiro</strong>
+        <img src="img/top.jpg" alt="写真の説明">
+        <!--写真の説明の部分は後で書き込む-->
+      </div>
+    </header>
+
+    <main>
+      <div id="submenu">
+       <h2>自己紹介</h2>
+         <ul>
+          <li><a href="#info001">基本情報</a></li>
+          <li><a href="#info002">出身学校</a></li>
+          <li><a href="#info003">取得資格</a></li>
+         </ul>
+      </div>
     
-    <div id="info">
-  <h3 id="info001">基本情報</h3>
+      <div id="info">
+       <h3 id="info001">基本情報</h3>
       <table class="profile">
         <tr><th>名前</th><td>上嶋千嘉（うえしまちひろ）</td></tr>
         <tr><th>誕生日</th><td>2005年（平成17年）9月3日　おとめ座</td></tr>
@@ -45,6 +50,7 @@
         <tr><th>好きな食べ物</th><td>甘いもの</td></tr>
         <tr><th>苦手な食べ物</th><td>辛いもの</td></tr>
       </table>
+
 <hr>
   <h3 id="info002">出身学校</h3>
       <table class="profile">
@@ -53,6 +59,7 @@
       <tr><th>高校</th><td><a href="https://sayamakeizai-ch.spec.ed.jp/%E5%AD%A6%E6%A0%A1%E7%B4%B9%E4%BB%8B/%E5%AD%A6%E7%A7%91%E7%B4%B9%E4%BB%8B/%E4%BC%9A%E8%A8%88%E7%A7%91">狭山経済高等学校（会計科）</a></td></tr>
       <tr><th>大学</th></td><td><a href="https://www.josai.ac.jp/management/management/">城西大学経営学部マネジメント総合学科</a></td></tr>
       </table>
+
 <hr>
   <h3 id="info003">取得資格</h2>
       <table class="profile">
@@ -62,10 +69,23 @@
       <tr><th>秘書検定</th><td>2級</td></tr>
       </table>
 <hr>
-    </div>
-      <div id="footer">
-    <small>秋季期末プロジェクト</small>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container cf">
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="syoukai.html">自己紹介</a></li>
+         <li><a href="class.html">授業の記録</a></li>
+         <li><a href="game.html">ゲーム</a></li>
+        </ul>
+        <div id="footer">
+         <small>zm24100 UeshimaChihiro</small>
+        </div>
+      </div>
+    </footer>
   </div>
-  </div>
+  
 </body>
 </html>
