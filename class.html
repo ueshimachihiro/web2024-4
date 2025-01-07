@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <title>授業の記録</title>
+ <meta charset="UTF-8">
+ <title>授業の記録</title>
+ <link rel="stylesheet" href="mystyle.css">
 </head>
-
+ 
 <body>
-  <div id="pagebody">
-    <div id="header">
-      <h1><a href="index.html"><img src="./img/logo.png" alt="秋季期末プロジェクト"></a></h1>
-    </div>
+  <div id="wrap">
+    <header>
+      <div id="logo">
+       <h1><a href="index.html"><img src="img/logo.png" alt="秋季期末プロジェクト"></a></h1>
+      </div>
+     
+      <nav class="cf">
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="syoukai.html">自己紹介</a></li>
+         <li><a href="class.html">授業の記録</a></li>
+         <li><a href="game.html">ゲーム</a></li>
+        </ul>
+      </nav>
+      
+    　<div id="main_visual">
+        <strong>zm24100 UeshimaChihiro</strong>
+        <img src="img/top.jpg" alt="写真の説明">
+        <!--写真の説明の部分は後で書き込む-->
+      </div>
+    </header>
+   
+    <main>
+      <div id="submenu">
+       <h2>授業の記録</h2>
+        <ul>
+          <li><a href="#info001">変数・引数などの練習</a></li>
+          <li><a href="#info002">タイマー関係</a></li>
+          <li><a href="#info003">テキスト入力</a></li>
+        </ul>
+      </div>
 
-    <ul id="menu">
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="syoukai.html">自己紹介</a></li>
-      <li><a href="class.html">授業の記録</a></li>
-      <li><a href="game.html">ゲーム</a></li>
-    </ul>
-
-    <div id="img_index">
-      <img src="./img/top.png" alt="城西大学17号館">
-    </div>
-
-    <div id="submenu">
-      <h2>授業の記録</h2>
-      <ul>
-        <li><a href="#info001">変数・引数などの練習</a></li>
-        <li><a href="#info002">タイマー関係</a></li>
-        <li><a href="#info003">テキスト入力</a></li>
-      </ul>
-    </div>
-
-    <div id="info">
+      <div id="info">
       <h3 id="info001">変数・引数などの練習</h3>
       <h4>変数の練習</h4>
       <!--hensu1.js-->
@@ -90,7 +97,7 @@
   <img src="./img/coldsleep_man.png" id="man1" alt="いらすとや">
             <div id="uehe">
         <a href="#pagebody">top</a>
-      </div>
+            </div>
       <hr>
 
       
@@ -124,11 +131,22 @@
         <a href="#pagebody">top</a>
       </div>
         <hr>
-    </div>
-    <div id="footer">
-      <small>秋季期末プロジェクト</small>
-    </div>
+    </main>
   </div>
-</body>
 
+  <footer>
+      <div class="container cf">
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="syoukai.html">自己紹介</a></li>
+         <li><a href="class.html">授業の記録</a></li>
+         <li><a href="game.html">ゲーム</a></li>
+        </ul>
+        <div id="footer">
+          <small>zm24100 UeshimaChihiro</small>
+        </div>
+      </div>
+  </footer>
+   
+</body>
 </html>
