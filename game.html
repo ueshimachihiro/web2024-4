@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <title>ゲーム</title>
-  <link rel="stylesheet" href="abc.css">
-  <link rel="stylesheet" href="table.css">
+ <meta charset="UTF-8">
+ <title>ゲーム</title>
+ <link rel="stylesheet" href="mystyle.css">
 </head>
-
+ 
 <body>
-  <div id="pagebody">   
-    <div id="header">
-     <h1><a href="index.html"><img src="./img/logo.png" alt="秋季期末プロジェクト"></a></h1>
-    </div>
-    
-    <ul id="menu">
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="syoukai.html">自己紹介</a></li>
-      <li><a href="class.html">授業の記録</a></li>
-      <li><a href="game.html">ゲーム</a></li>
-    </ul>
-    
-    <div id="img_index">
-    <img src="./img/profile.jpg" alt="ゲーム">
-    </div>
-    
-    <div id="submenu">
-    <h2>自己紹介</h2>
+  <div id="wrap">
+    <header>
+      <div id="logo">
+       <h1><a href="index.html"><img src="img/logo.png" alt="秋季期末プロジェクト"></a></h1>
+      </div>
+     
+      <nav class="cf">
         <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="syoukai.html">自己紹介</a></li>
+         <li><a href="class.html">授業の記録</a></li>
+         <li><a href="game.html">ゲーム</a></li>
+        </ul>
+      </nav>
+      
+    　<div id="main_visual">
+        <strong>zm24100 UeshimaChihiro</strong>
+        <img src="img/top.jpg" alt="ゲーム">
+        <!--写真の説明の部分は後で書き込む-->
+      </div>
+    </header>
+   
+    <main>
+     <h2>ゲーム</h2>
+             <ul>
       <li><a href="#info001">クイズ</a></li>
       <li><a href="#info002">ストーリー</a></li>
       <li><a href="#info003">神経衰弱</a></li>
@@ -87,11 +91,22 @@
       <!--投票ボタンを押されたらアラートで「投票ありがとうございます」と出せるようにする-->
       <!--ニックネームを入力させて「○○さん投票ありがとうございます」とだせるようにする-->
       </table>
-      
-    </div>
-      <div id="footer">
-    <small>秋季期末プロジェクト</small>
+    </main>
   </div>
-  </div>
+
+  <footer>
+      <div class="container cf">
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="syoukai.html">自己紹介</a></li>
+         <li><a href="class.html">授業の記録</a></li>
+         <li><a href="game.html">ゲーム</a></li>
+        </ul>
+        <div id="footer">
+          <small>zm24100 UeshimaChihiro</small>
+        </div>
+      </div>
+  </footer>
+   
 </body>
 </html>
