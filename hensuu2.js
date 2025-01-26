@@ -1,3 +1,3 @@
-function sayhello3(){ alert('Hello,' + document.getElementById('who3').innerHTML + '!'); }
-function taro3(){ document.getElementById('who3').innerHTML = '太郎'; }
-function hanako3(){ document.getElementById('who3').innerHTML = '花子'; }
+var who2 = 'world';
+function sayhello2(){ alert('Hello, ' + who2 + '!'); }
+function someone(x){who2 = x; }
