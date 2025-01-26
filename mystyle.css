@@ -87,15 +87,6 @@ nav li:last-of-type {
   width: 153px
 }
 
-#main_visual {
-  background: url(img/main_image3.jpg) no-repeat center center;
-  display: table;
-  height: 200px;
-  margin-bottom: 40px;
-  overflow: hidden;
-  text-align: center;
-}
-
 #main_visual strong {
   color: #ff0000;
   display: table-cell;
