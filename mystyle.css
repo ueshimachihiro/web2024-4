@@ -49,20 +49,26 @@ nav {
   background-color: #abcdef;
   font-size: 0.7em;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul {
   width:960px;
-	height:50px;
-	margin:0px 20px;
-	padding: 0;
-  　    list-style: none;
+  height:50px;
+  margin:0px 20px;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  margin: 0;
 }
 
 nav li {
   border-right: solid 1px #ffffff;
   float: left;
   font-weight: bold;
+  text-align: center;
   width: 152px;
 }
 
