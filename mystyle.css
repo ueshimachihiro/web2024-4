@@ -54,9 +54,6 @@ nav {
 }
 
 nav ul {
-  width:960px;
-  height:50px;
-  margin:0px 20px;
   display: flex;
   padding: 0;
   list-style: none;
@@ -65,10 +62,8 @@ nav ul {
 
 nav li {
   border-right: solid 1px #ffffff;
-  float: left;
   font-weight: bold;
   text-align: center;
-  width: 152px;
 }
 
 nav a {
@@ -84,7 +79,6 @@ nav a:hover {
 
 nav li:last-of-type {
   border-right: 0;
-  width: 153px
 }
 
 #main_visual strong {
